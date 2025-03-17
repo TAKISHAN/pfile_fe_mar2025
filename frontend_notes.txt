@@ -1,0 +1,48 @@
+boot strap js and react notes
+day1 monday 17-03-2025
+STEPS TO CRETE NEW GIT REPORT-
+1 login to gidhub account
+2 top right click on + and click down arrow and click new repositary
+3 given name repo 
+4 given discription for repositary
+5 click the public in the repositary
+6 and click on check box Add a README filein the repositary
+7 click on green button create repositary
+
+GIT COMMANDS:-
+$ git status 
+the above comand to know the status of the repo which we are working in
+
+$ git clone https://github.com/TAKISHAN/pfile_fe_mar2025
+this comand coopies the repo from the server (remote repo)into our computer
+ 
+$ git pull origin name
+this to download update repo from the server. main here is default branch name 
+
+$ git confict--global user.name "TAKISHAN" 
+$ git confict--global user.email "takishan22@gmail.com"   
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT)
+1ON THE TOP RIGHCT CORNERR CKICK ON CIRCLE
+2and click on setting
+3click develop seeting in the bottom
+4in the new windoe top left click tockens and then seelect token calssic
+5in the new window click genaric new tocken and select tokeen clasic token
+6click expiry and select no expiry
+7 select the check box repo
+8scrool down and click genaric token 
+9 copy the PAT and mail to urself(use the mail subject gitpat)
+
+steps to sinc remote repo with local 
+$ git clone https://g<pat>ithub.com/TAKISHAN/pfile_fe_mar2025
+
+
+STEPS TO UPDATE THE REMOTE REPO(COPY THE FILE FROM LOCAL TO REMOTE REPO):
+$ git add .
+in the above comad the git will mark (we a make list of)all the file git will a mark/stage that should be upadted in the remot repo (server)
+$ git commite - m "relavent message"
+the above comand creates an object that will have all the marked ffile (with securit).
+
+$ git push origin <branch name> 
+example git push  origin main 
+the above comand file to the branch main
